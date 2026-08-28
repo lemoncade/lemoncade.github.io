@@ -127,11 +127,11 @@ body, html {
 }
 
 .protected-email::before {
-    content: attr(data-user);
+    content: "\63\6f\6e\74\61\63\74";
 }
 
 .protected-email::after {
-    content: "@" attr(data-domain);
+    content: "\40\6c\65\6d\6f\6e\63\61\64\65\2e\63\6f\6d";
 }
 
 /* Mobile Responsive */
