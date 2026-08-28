@@ -126,6 +126,10 @@ body, html {
     cursor: default;
 }
 
+.protected-email::before {
+    content: attr(data-user);
+}
+
 .protected-email::after {
     content: "@" attr(data-domain);
 }
