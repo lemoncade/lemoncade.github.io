@@ -37,7 +37,7 @@ body, html {
 }
 
 .custom-header p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin: 0;
     color: #ffffff;
 }
@@ -85,7 +85,7 @@ body, html {
 }
 
 .description-text {
-    font-size: 1.0rem;
+    font-size: 1.25rem;
     line-height: 1.6;
     font-weight: 700;
     margin-bottom: 20px;
@@ -94,7 +94,7 @@ body, html {
 
 .platforms-text {
     color: #F7ED55;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     margin: 0;
 }
