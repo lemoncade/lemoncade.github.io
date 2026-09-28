@@ -210,6 +210,23 @@ body, html {
     color: #ffffff;
 }
 
+.page-subtitle {
+    font-family: 'Coiny', cursive;
+    color: #F7ED55;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin: 0 0 20px 0;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #888888;
+    margin: 40px auto;
+    width: 60%;
+}
+
 /* Games Page */
 .slicefall-area {
     background-image: url('../../images/background.png');
