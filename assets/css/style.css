@@ -25,21 +25,27 @@ body, html {
 .custom-header {
     background-color: #333333;
     text-align: center;
-    padding: 60px 20px 40px;
+    padding: 25px 20px 15px;
+}
+
+.custom-header .logo img {
+    width: 102px;
+    height: auto;
+    display: inline-block;
 }
 
 .custom-header h1 {
     font-family: 'Coiny', cursive;
     color: #F7ED55;
-    font-size: 3.5rem;
-    margin: 20px 0 10px;
+    font-size: 2.5rem;
+    margin: 10px 0 0;
     letter-spacing: 2px;
 }
 
 .custom-header p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    margin: 0;
+    margin: 0 0 10px;
     color: #ffffff;
 }
 
@@ -151,8 +157,22 @@ body, html {
         text-align: center;
     }
     
+    .custom-header {
+        padding: 18px 15px 12px;
+    }
+
+    .custom-header .logo img {
+        width: 78px;
+    }
+
     .custom-header h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin: 8px 0 0;
+    }
+
+    .custom-header p {
+        font-size: 0.95rem;
+        margin: 0 0 8px;
     }
     
     .custom-main h2 {
