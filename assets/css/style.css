@@ -162,6 +162,10 @@ body, html {
     .games-details {
         flex-direction: column;
     }
+    
+    .store-buttons {
+        justify-content: center;
+    }
 }
 
 /* Navigation Bar */
@@ -343,3 +347,46 @@ body, html {
 .btn-tiktok {
     background-color: #000000;
 }
+
+/* Store Buttons */
+.store-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.store-buttons.centered {
+    justify-content: center;
+}
+
+.store-btn {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.05rem;
+    transition: background-color 0.2s, color 0.2s;
+    text-align: center;
+    display: inline-block;
+}
+
+.store-btn:hover {
+    background-color: #F7ED55;
+    color: #ffffff;
+}
+
+.btn-steam {
+    background-color: #27465F;
+}
+
+.btn-googleplay {
+    background-color: #0f9d58;
+}
+
+.btn-itch {
+    background-color: #fa5c5c;
+}
+
