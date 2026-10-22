@@ -368,6 +368,10 @@ body, html {
     background-color: #000000;
 }
 
+.btn-bandcamp {
+    background-color: #629aa9;
+}
+
 /* Store Buttons */
 .store-buttons {
     display: flex;
